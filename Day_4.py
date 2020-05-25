@@ -1,4 +1,4 @@
-'''#1.Write a function to find max of three numbers.
+#1.Write a function to find max of three numbers.
 def max_num(a,b,c):
     return max(a,b,c)   #inbuilt function which will find the maximum out of 3 values
 n = int(input('1st no.:'))
@@ -40,7 +40,7 @@ l = list(map(int,input().split()))
 print('Original list:')
 print(l)
 print('Unique list:')
-print(unique_list(l))'''
+print(unique_list(l))
 
 #6.	Write a program to obtain the sum of the first and last digit of this number 2 user defined functions 1st for first digit & 2nd for last digit
 def first_digit(n):
